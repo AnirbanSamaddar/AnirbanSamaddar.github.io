@@ -44,6 +44,13 @@ nav a:hover { color: var(--accent); text-decoration: none; }
 
 section { padding: 2rem 0 .5rem; }
 .hero { padding-top: 3rem; }
+.portrait {
+  float: right; width: 200px; height: auto; margin: 0 0 1rem 1.5rem;
+  border-radius: 10px; object-fit: cover;
+}
+@media (max-width: 520px) {
+  .portrait { float: none; display: block; margin: 0 0 1rem; width: 160px; }
+}
 h1 { font-size: 2.4rem; margin: 0 0 .25rem; line-height: 1.2; }
 h2 { font-size: 1.4rem; margin: 1.5rem 0 .75rem; padding-bottom: .3rem; border-bottom: 1px solid var(--border); }
 .hero h2 { font-size: 1.15rem; }
